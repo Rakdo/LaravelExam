@@ -3,27 +3,91 @@
    
       @section('content')
         
-        
-            <div class="container position-relative">
+        <header class="masthead" id="Landing">
+            <div class="container position-relative" >
                 <div class="row justify-content-center">
-                    <div class="col-xl-6" id="Landing">
-                        <div class="text-center text-white">
-                            <img src="{{url('img/banner.jpg')}}" class="img-fluid" alt="Responsive image">
+                    <div class="col-xl-6">
+                        <div class="text-center text-white" >
                             
                             
+                            <img src="img/tech.png" style="height: 100%; width: 100%">
                          
                         </div>
                     </div>
                 </div>
             </div>
-        
+        </header>
+  <div class="container position-relative">
+                <div class="row justify-content-center" style="padding-top:5%;">
+                    <div class="col-xl-6">
+                        <div class="text-center" id="Landing">
+                            
+                            
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">Laptop Gamer MSI Creator 15</h5>
+                                <img src="img/img1.jpg" style="height:500px; width: 100%; padding-bottom: 3%; padding-top: 3%;">
+                                <p class="card-text">Como marca líder mundial en Gaming, el objetivo de MSI es convertirse en el nombre más confiable en el campo del Gaming y el e-sport. Hemos dedicado innumerables horas y comprometimos numerosos recursos a la comunidad de eSoports para soportar a los mejores gamers del mundo y a cambio utilizamos su conocimiento y experiencia para nuestros productos. . </p>
+                               
+                              </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="card text-center">
+                          <div class="card-body">
+                            <h5 class="card-title">Laptop ASUS Zenbook</h5>
+                            <img src="img/img3.jpg" style="height:500px; width: 500px; padding-bottom: 3%; padding-top: 3%;">
+                            <p class="card-text">El portátil del futuro El ZenBook Pro Duo 15 OLED te permite hacer las cosas con estilo, eficiencia y sin complicaciones. Está equipado con un increíble panel táctil OLED HDR 4K y la nueva pantalla secundaria basculante 4K ASUS ScreenPad™ Plus, que ofrece una ergonomía y una experiencia multitarea notablemente mejorada.</p>
+                            
+                          </div>
+                        </div>
+                    </div>
 
-<div class="row justify-content-center">
+
+                </div>
+            </div>
+
+
+               <div class="row justify-content-center" style="padding-top:5%;">
+                 <div class="col-xl-8">
+                        <div class="card text-center " style="align-content:center;">
+                          <div class="card-body">
+                            <h5 class="card-title">Computadora Gamer Xtreme PC Gaming</h5>
+                            <img src="img/img2.jpg" style="height:500px; width: 500px; padding-bottom: 3%; padding-top: 3%;">
+                            <p class="card-text">
+                                <ul style="list-style-type: none;"><li>- Familia de procesador: AMD Ryzen 5</li>
+                                    <li>- Frecuencia del procesador: 3.60 GHz</li>
+                                    <li>- Memoria interna: 16 GB</li>
+                                    <li>- Tipo de memoria interna: DDR4</li>
+                                    <li>- Capacidad total de almacenaje: 2120 GB</li>
+                                    <li>- Sistema operativo instalado: Windows 10 Prueba</li>
+                                </ul>
+
+
+
+
+</p>
+                            
+                          </div>
+                        </div>
+                    </div>
+                </div>
+<div class="row justify-content-center" style="padding-top:5%;">
+    <div class="col-xl-8">
+        <h1>Lista de nuestros contactos</h1>
+        <hr>
+    </div>
+</div>
+            <br><br>
+<div class="row justify-content-center" style=" padding-bottom: 5%;">
     <div class="col-xl-8">
         <h1 class="mb-2"><button type="button" class="btn  createbtn" data-bs-toggle="modal" data-bs-target="#CreateModal">
                 <h5>Crear nuevo contacto</h5>
                 </button></h1>
-        <table class="table" id="Contacts">
+                <br>
+        <table class="table" id="Contacts" style="padding-top:2%;">
   <thead class="thead-dark">
     <tr>
       <th scope="col">ID</th>
@@ -83,7 +147,7 @@
                                                             <br>
                                                              <div class="form-group">
                                                                         <label>Correo</label>
-                                                                        <input class="form-control" type="emailAddress" name="correo" value="{{ $contacto->correo }}">
+                                                                        <input class="form-control" type="email" name="correo" value="{{ $contacto->correo }}">
                                                             </div>
                                                             <br>
                                                                 <div class="form-group">
@@ -187,12 +251,12 @@
                                                             <br>
                                                             <div class="form-group">
                                                                 <label>Telefono</label>
-                                                            <textarea class="form-control" name="telefono"> </textarea>
+                                                            <input class="form-control" type="number" name="telefono"> </input>
                                                             </div>
                                                             <br>
                                                              <div class="form-group">
                                                                         <label>Correo</label>
-                                                                        <input class="form-control" type="emailAddress" name="correo" value="">
+                                                                        <input class="form-control" type="email" name="correo" value="">
                                                             </div>
                                                             
                                                            

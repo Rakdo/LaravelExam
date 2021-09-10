@@ -11,7 +11,7 @@ font-family: 'Urbanist', sans-serif;
 header.masthead {
   position: relative;
   background-color: black;
-
+  background-image: url(images/banner.jpg);
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -19,7 +19,7 @@ header.masthead {
 header.masthead:before {
   content: "";
   position: absolute;
-  background-color: #1c375e;
+  
   height: 100%;
   width: 100%;
   top: 0;
