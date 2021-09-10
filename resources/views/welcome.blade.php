@@ -136,18 +136,18 @@
                                                             <!-- Campos del formulario -->
                                                             <div class="form-group">
                                                                 <label>Nombre del contacto</label>
-                                                                <input class="form-control" type="text" name="nombre" placeholder="Nombre del contacto" value="{{ $contacto->nombre }}">
+                                                                <input class="form-control"  required="required" type="text" name="nombre" placeholder="Nombre del contacto" value="{{ $contacto->nombre }}">
 
                                                             </div>
                                                             <br>
                                                             <div class="form-group">
                                                                 <label>Telefono</label>
-                                                            <textarea class="form-control" name="telefono"> {{ $contacto->telefono }}</textarea>
+                                                            <textarea class="form-control" required="required" name="telefono"> {{ $contacto->telefono }}</textarea>
                                                             </div>
                                                             <br>
                                                              <div class="form-group">
                                                                         <label>Correo</label>
-                                                                        <input class="form-control" type="email" name="correo" value="{{ $contacto->correo }}">
+                                                                        <input class="form-control"  required="required" type="email" name="correo" value="{{ $contacto->correo }}">
                                                             </div>
                                                             <br>
                                                                 <div class="form-group">
@@ -245,18 +245,18 @@
                                                             <!-- Campos del formulario -->
                                                                   <div class="form-group">
                                                                 <label>Nombre del contacto</label>
-                                                                <input class="form-control" type="text" name="nombre" placeholder="Nombre del contacto" value="">
+                                                                <input class="form-control" required="required" type="text" name="nombre" placeholder="Nombre del contacto" value="">
 
                                                             </div>
                                                             <br>
                                                             <div class="form-group">
                                                                 <label>Telefono</label>
-                                                            <input class="form-control" type="number" name="telefono"> </input>
+                                                            <input class="form-control" required="required" type="number" name="telefono"> </input>
                                                             </div>
                                                             <br>
                                                              <div class="form-group">
                                                                         <label>Correo</label>
-                                                                        <input class="form-control" type="email" name="correo" value="">
+                                                                        <input class="form-control"  required="required" type="email" name="correo" value="">
                                                             </div>
                                                             
                                                            
